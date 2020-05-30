@@ -1,0 +1,10 @@
+<h3>${currentPage.title || currentPage.name}</h3>
+
+<!--/* Initializes the Experience Manager authoring UI */-->
+<sly data-sly-include="/libs/wcm/core/components/init/init.jsp" data-sly-unwrap/>
+
+<p>My Test Property</p>
+<div class="content" name="content" data-sly-resource="${'content' @resourceType='wcm/foundation/components/parsys'}">
+</div>
+
+

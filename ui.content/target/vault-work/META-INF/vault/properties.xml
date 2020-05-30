@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>PracticeApp5 - UI content</comment>
+<entry key="createdBy">varsha</entry>
+<entry key="name">PracticeApp5.ui.content</entry>
+<entry key="created">2020-05-25T21:54:29.288+0530</entry>
+<entry key="groupId">PracticeApp5</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">PracticeApp5</entry>
+<entry key="description">UI content package for PracticeApp5</entry>
+<entry key="artifactId">PracticeApp5.ui.content</entry>
+<entry key="path">/etc/packages/PracticeApp5/PracticeApp5.ui.content.zip</entry>
+</properties>

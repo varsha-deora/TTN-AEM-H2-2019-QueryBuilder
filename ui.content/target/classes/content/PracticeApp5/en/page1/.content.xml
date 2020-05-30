@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Page1"
+        pageTitle="My Blank Page1"
+        sling:resourceType="PracticeApp5/components/structure/blankpage"
+        cq:template="/apps/PracticeApp5/templates/page-blank">
+        <content
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys">
+        <text
+                jcr:created="{Date}2020-05-25T21:18:51.730+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-05-25T21:19:08.429+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="PracticeApp5/components/content/text"
+                text="&lt;p>Text 1&lt;/p>&#xa;"
+                textIsRich="true"/>
+        <title
+                jcr:created="{Date}2020-05-25T21:19:17.070+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-05-25T21:19:25.399+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Title 1"
+                sling:resourceType="PracticeApp5/components/content/title"
+                type="h1"/>
+            <text_1476640290
+                    jcr:created="{Date}2020-05-25T21:19:35.471+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-05-25T21:19:43.146+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="PracticeApp5/components/content/text"
+                    text="&lt;p>Text2&lt;/p>&#xa;"
+                    textIsRich="true"/>
+            <colctrl
+                    jcr:created="{Date}2020-05-25T21:22:14.359+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-05-25T21:22:14.359+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="PracticeApp5/components/content/colctrl"/>
+            <col_end15904219343610
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="PracticeApp5/components/content/colctrl"
+                    controlType="end"/>
+            <image
+                    jcr:created="{Date}2020-05-25T21:22:27.113+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-05-25T21:22:47.893+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="PracticeApp5/components/content/image"
+                    fileReference="/content/dam/core-components-examples/library/sample-assets/bicycle.svg"
+                    imageRotate="0"/>
+            <textimage
+                    jcr:created="{Date}2020-05-25T21:22:53.365+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-05-25T21:23:08.305+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="PracticeApp5/components/content/textimage"
+                    alignment="left"
+                    text="&lt;p>Text and Image 1&lt;/p>&#xa;"
+                    textIsRich="true">
+                <image
+                        jcr:lastModified="{Date}2020-05-25T21:23:08.305+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/image"
+                        fileReference="/content/dam/core-components-examples/library/sample-assets/circle.jpg"
+                        imageRotate="0"/>
+            </textimage>
+        </content>
+
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,13 @@
+PracticeApp5/core/servlets/QueryBuilderTest5.class
+PracticeApp5/core/servlets/SimpleServlet.class
+PracticeApp5/core/servlets/QueryBuilderTest4.class
+PracticeApp5/core/servlets/TestServletByResourceType.class
+PracticeApp5/core/listeners/SimpleResourceListener.class
+PracticeApp5/core/models/HelloWorldModel.class
+PracticeApp5/core/package-info.class
+PracticeApp5/core/schedulers/SimpleScheduledTask.class
+PracticeApp5/core/servlets/TestServletByPath.class
+PracticeApp5/core/servlets/QueryBuilderTest2.class
+PracticeApp5/core/servlets/QueryBuilderTest1.class
+PracticeApp5/core/servlets/QueryBuilderTest3.class
+PracticeApp5/core/filters/LoggingFilter.class

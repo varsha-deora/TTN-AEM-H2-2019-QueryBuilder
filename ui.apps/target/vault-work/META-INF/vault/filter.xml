@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/PracticeApp5">
+        <exclude pattern="/apps/PracticeApp5/install" />
+    </filter>
+    <filter root="/apps/sling" />
+    <filter root="/etc/designs/PracticeApp5"/>
+</workspaceFilter>

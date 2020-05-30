@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/PracticeApp5.core.schedulers.SimpleScheduledTask">
+    <OCD id="PracticeApp5.core.schedulers.SimpleScheduledTask" name="%PracticeApp5.core.schedulers.SimpleScheduledTask.name" description="%PracticeApp5.core.schedulers.SimpleScheduledTask.description">
+        <AD id="scheduler.expression" type="String" default="*/30\ *\ *\ *\ *\ ?" name="%PracticeApp5.core.schedulers.SimpleScheduledTask.scheduler.expression.name" description="%PracticeApp5.core.schedulers.SimpleScheduledTask.scheduler.expression.description"/>
+        <AD id="scheduler.concurrent" type="Boolean" default="false" name="%PracticeApp5.core.schedulers.SimpleScheduledTask.scheduler.concurrent.name" description="%PracticeApp5.core.schedulers.SimpleScheduledTask.scheduler.concurrent.description"/>
+        <AD id="myParameter" type="String" name="%PracticeApp5.core.schedulers.SimpleScheduledTask.myParameter.name" description="%PracticeApp5.core.schedulers.SimpleScheduledTask.myParameter.description"/>
+    </OCD>
+    <Designate pid="PracticeApp5.core.schedulers.SimpleScheduledTask">
+        <Object ocdref="PracticeApp5.core.schedulers.SimpleScheduledTask"/>
+    </Designate>
+</metatype:MetaData>
